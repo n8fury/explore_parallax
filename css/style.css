@@ -6,6 +6,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+}
+
 .container {
   height: 100vh;
 }
