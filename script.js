@@ -2,7 +2,11 @@
  let controller = new ScrollMagic.Controller();
 
  let timeline = new TimelineMax();
- timeline.to(".text", 5, {
-   x: 500
+ timeline
+ .to(".text", 3, {
+   x: 250
+ })
+ .to(".text", 2, {
+   opacity: 0
  });
  console.log("hlw");
