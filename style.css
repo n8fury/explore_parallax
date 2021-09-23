@@ -28,7 +28,7 @@ nav {
 
 .container img {
   position: absolute;
-  height: 100vh;
+  height: 106vh;
   width: 100%;
   object-fit: cover;
   z-index: -1;
@@ -37,19 +37,20 @@ nav {
 .content {
   width: 100%;
   background: rgb(27, 22, 22);
-  min-height: 100vh;
+  min-height: 110vh;
   z-index: 2;
+  position: absolute;
 }
 
 .content-image {
   display: flex;
   justify-content: space-around;
-  min-height: 50vh;
+  min-height: 70vh;
   align-items: center;
   text-align: center;
 }
 
 .text {
   font-size: 1.15rem;
-  padding: 2rem 10rem;
+  padding: 1.5rem 20rem;
 }
